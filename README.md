@@ -1,8 +1,8 @@
 # Brain-Tumor-Survival-Prediction
 
 ### Overview
-In this project I implemented three different models to predict brain tumor survival of a patient based on
-the given dataset. The dataset consists of brain tumor MRI exams derived from the MICCAO
+I implemented three different models to predict brain tumor survival of a patient based on
+the dataset. The dataset consists of brain tumor MRI exams derived from the MICCAO
 Brain Tumor Segmentation Challenge. For preparing the data set for survival prediction, the
 brain MRI volume was cropped to the boundaries of the tumor and resampled to form a uniform
 3D volume of shape (96,96,96,4). I created a custom config dictionary to create generators to
